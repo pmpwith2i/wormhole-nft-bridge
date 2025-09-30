@@ -1,0 +1,22 @@
+{
+  "name": "evm-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.3",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^3.0.2",
+    "@types/node": "^22.18.7",
+    "dotenv": "^17.2.3",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.0.6",
+    "typescript": "~5.8.3",
+    "viem": "^2.37.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "@wormhole-foundation/sdk": "^3.8.3",
+    "@wormhole-foundation/sdk-evm": "^3.8.3",
+    "@wormhole-foundation/sdk-solana": "^3.8.3"
+  }
+}

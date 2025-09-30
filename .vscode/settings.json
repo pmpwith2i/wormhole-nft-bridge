@@ -1,0 +1,4 @@
+{
+    "solidity.monoRepoSupport":true,
+    "rust-analyzer.linkedProjects": ["packages/sol-bridge/Cargo.toml"]
+}
